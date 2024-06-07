@@ -14,6 +14,10 @@ class AppPages {
       page: () => innerview(),
       transition: Transition.fadeIn,
     ),
-
+    GetPage(
+      name: Paths.CART,
+      page: () => innerview(),
+      transition: Transition.fadeIn,
+    ),
   ];
 }
